@@ -148,6 +148,24 @@ section {
   box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
+.project-features {
+  margin: 12px 0;
+  padding-left: 18px;
+  color: #333;
+  list-style-type: disc;
+}
+
+.project-features li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.project-cta {
+    color: rgb(176, 72, 72);
+    font-weight: bold;
+    margin-top: 12px;
+}
+
 /* ===== BLOG SECTION ===== */
 .blog-grid {
   display: grid;
