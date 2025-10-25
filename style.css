@@ -31,35 +31,55 @@ section {
 
 /* ===== NAVBAR ===== */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  background: #0e1e2d;
-  color: white;
   position: sticky;
   top: 0;
-  z-index: 10;
-}
-
-.logo span {
-  color: #00ffc6;
+  width: 100%;
+  background: rgba(14, 30, 45, 0.9);
+  backdrop-filter: blur(8px);
+  padding: 14px 8%;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 35px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #eaf4ff;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00ffc6;
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #00ffc6;
-  transition: 0.3s;
 }
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
 
 /* ===== HERO SECTION ===== */
 .hero {
-  height: 91vh;
+  height: 92vh;
   display: flex;
   align-items: center;
   justify-content: center;
