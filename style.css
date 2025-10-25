@@ -105,7 +105,9 @@ section {
   font-size: 3.8rem;
   font-weight: 700;
   color: #00ffc6;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word; /* break if too long */
+  text-align: center;
   border-right: 3px solid #00ffc6;
   overflow: hidden;
   text-shadow: 0 2px 10px rgba(0,0,0,0.3);
