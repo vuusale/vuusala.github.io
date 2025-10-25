@@ -223,7 +223,7 @@ section {
 /* ===== CONTACT SECTION ===== */
 .contact .socials {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 20px;
   margin-top: 20px;
 }
