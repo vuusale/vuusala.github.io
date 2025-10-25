@@ -106,7 +106,7 @@ section {
   font-weight: 700;
   color: #00ffc6;
   white-space: normal;
-  word-break: break-word; /* break if too long */
+  word-break: break-word;
   text-align: center;
   border-right: 3px solid #00ffc6;
   overflow: hidden;
